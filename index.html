@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Buttons</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+
+    .header-container {
+        text-align: center;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container button {
+        padding: 10px 20px;
+        margin: 10px 0;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .button-container button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+    <div class="header-container">
+        <h1>Repository Jailbreak:</h1>
+    </div>
+
+    <div class="button-container">
+        <form action="cydia://url/https://cydia.saurik.com/api/share#?source=https://longkaydiaov.github.io/">
+            <button class="button-release">
+                <a>Thêm vào Cydia</a>
+            </button>
+        </form>
+        <form action="sileo://source/https://longkaydiaov.github.io/">
+            <button class="button-release">
+                <a>Thêm vào Sileo</a>
+            </button>
+        </form>
+        <form action="zbra://sources/add/https://longkaydiaov.github.io/">
+            <button class="button-release">
+                <a>Thêm vào Zebra</a>
+            </button>
+        </form>
+        <form action="installer://longkaydiaov.github.io/">
+            <button class="button-release">
+                <a>Thêm vào Installer</a>
+            </button>
+        </form>
+    </div>
+</body>
+</html>
