@@ -1,0 +1,63 @@
+Package: com.longkaydiAov.rootless
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: Rootless LQM
+Installed-Size: 2272
+Depends: mobilesubstrate
+Filename: ./DEB/com.longkaydiAov.rootless_3.0_iphoneos-arm64.deb
+Size: 986036
+MD5sum: 9010cd37b19dcacf4a7288c355e29373
+SHA1: 14b7be9258fb3f7fa99ebaebe207f39bad820232
+SHA256: e45db2b4a3d061a62965e05c731c5972e11c85931795faa2d36b1b85f48a457e
+SHA512: 39a9a73fd9ccfba579c8c15c4b5602b9402ef3b0eca33cfb64bea279fb8926b0727e11924231d3f4444148bd9317b19d7597164689a581ee82b919909b946d05
+Description: AOV Mod Menu (Rootless)
+Name: AOV Mod Menu (Rootless)
+Author: rootless
+Icon: https://avatars.githubusercontent.com/u/137310130?v=4
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm
+Version: 3.7.6
+Section: System
+Maintainer: jjolano
+Installed-Size: 1428
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: ./DEB/me.jjolano.shadow_3.7.6_iphoneos-arm.deb
+Size: 165532
+MD5sum: 1bd570cca8ed27de87385c12d7383d7a
+SHA1: 1e9d9b6a1608ce2d42b59cc552fb1329cd71db97
+SHA256: 830e3eb445106e37a402007ba3ca9a4158b1447c3b02b0e96057f1c987153079
+SHA512: 0bafcc3f2ca35bb57a5a13224124de1fdf120207c25941fe2e61e12d4ffeda85762e09271a84503296e76938405b4876163d5faca6be8168b8bf29937d52cce3
+Description: A modern jailbreak detection bypass.
+Name: Shadow (Fix LQM Rootfull)
+Author: jjolano
+
+Package: me.jjolano.shadow
+Architecture: iphoneos-arm64
+Version: 3.7.6
+Section: System
+Maintainer: jjolano
+Installed-Size: 1076
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Filename: ./DEB/me.jjolano.shadow_3.7.6_iphoneos-arm64.deb
+Size: 101160
+MD5sum: 03778a918f1987cbb36d9b3ac0487a16
+SHA1: 35364b779009d9cdc52342f811aee03e39be27a0
+SHA256: 1f5290939ce96d51c89414271dd63e236af576b96a9d6c83e66b82aaf095dd98
+SHA512: 9b5acba3a02449606d4bf035e4de1d38334753ea4403d96c9843405ecc2a3e0e01239158e15e80b0a4f202b5d7a9d8934653e3ad3f449764c13903ff403ddc07
+Description: A modern jailbreak detection bypass.
+Name: Shadow (Fix LQM Rootless)
+Author: jjolano
+
